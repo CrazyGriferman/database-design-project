@@ -1,10 +1,12 @@
 import './App.css';
 
+import MainPage from '../src/components/common/MainPage';
+
 function App() {
   return (
-    <div>
-      Hello World
-    </div>
+    <>
+      <MainPage />
+    </>
   );
 }
 
