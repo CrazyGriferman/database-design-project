@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from 'antd';
 import 'antd/dist/antd.css';
 import { Layout } from 'antd';
+import AppHeader from './Header';
 import image1 from '../../assets/img/rescue.jpg';
 const { Header, Content, Footer} = Layout;
 
@@ -10,10 +11,7 @@ export default function MainPage() {
     return(
         <Layout className="layout">
             <Header>
-            <div className="logo">
-                <i className="fas fa-bolt"></i>
-                <a href="http://www.baidu.com">Tech</a>
-            </div>
+                <AppHeader />
             </Header>
             <Content >
                 <div className="site-layout-content">
