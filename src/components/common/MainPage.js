@@ -17,13 +17,10 @@ export default function MainPage() {
                 <div className="site-layout-content">
                     <img alt="Dragon" src={image1} />
                     <Button type="primary" shape="round" size= "large">
-                        我是买家
+                        登陆
                     </Button>
                     <Button type="primary" shape="round" size= "large">
-                        我是卖家
-                    </Button>
-                    <Button type="primary" shape="round" size= "large">
-                        我是管理员
+                        注册
                     </Button>
                 </div>
             </Content>
