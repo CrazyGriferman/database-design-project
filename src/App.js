@@ -10,6 +10,7 @@ import Login from '../src/components/common/Login';
 import Register from '../src/components/common/Register';
 import BuyingPage from '../src/components/BuyerPage/BuyingPage';
 import SellerPage from './components/SellerPage/SellerPage';
+import AdministratorPage from './components/AdministratorPage/AdministratorPage';
 
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route path="/seller">
             <SellerPage />
+          </Route>
+          <Route path="/administrator">
+            <AdministratorPage />
           </Route>
         </Switch>
 
