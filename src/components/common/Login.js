@@ -36,6 +36,15 @@ export default function Login() {
                         placeholder="Password"
                         />
                     </Form.Item>
+                    <Checkbox>
+                            我是买家
+                        </Checkbox>
+                        <Checkbox>
+                            我是卖家
+                        </Checkbox>
+                        <Checkbox>
+                            我是管理员
+                        </Checkbox>
                     <Form.Item>
                         <Form.Item name="remember" valuePropName="checked" noStyle>
                         <Checkbox>Remember me</Checkbox>
