@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import MainPage from '../src/components/common/MainPage';
 import Login from '../src/components/common/Login';
+import Register from '../src/components/common/Register';
 
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route path="/register">
+            <Register />
           </Route>
         </Switch>
 
