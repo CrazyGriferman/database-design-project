@@ -8,6 +8,7 @@ import {
 import MainPage from '../src/components/common/MainPage';
 import Login from '../src/components/common/Login';
 import Register from '../src/components/common/Register';
+import BuyingPage from '../src/components/BuyerPage/BuyingPage';
 
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path="/register">
             <Register />
+          </Route>
+          <Route path="/buying">
+            <BuyingPage />
           </Route>
         </Switch>
 
