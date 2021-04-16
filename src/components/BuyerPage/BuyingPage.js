@@ -12,6 +12,9 @@ import {
   UploadOutlined,
   VideoCameraOutlined,
 } from '@ant-design/icons';
+import PersonalCenter from '../common/PersonalCenter';
+
+
 
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
@@ -49,7 +52,7 @@ export default function BuyingPage() {
             <Header className="site-layout-background" style={{ padding: 0 }} />
             <Content style={{ margin: '24px 16px 0', overflow: 'initial' }}>
                 <div className="site-layout-background" style={{ padding: 24, textAlign: 'center' }}>
-                content
+                    <PersonalCenter />
                 </div>
             </Content>
             <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
